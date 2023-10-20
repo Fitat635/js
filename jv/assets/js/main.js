@@ -43,7 +43,7 @@ let students=[
 //     let ikiAd = [];
 
 //     for (let i = 0; i < students.length; i++) {
-//       if (students[i] % 2 === 0) {
+//       if (students[i].id % 2 === 0) {
 //         ikiAd.push(students[i]);
 //       }
 //     }
