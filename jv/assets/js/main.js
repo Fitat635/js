@@ -1,15 +1,13 @@
-// let a = 10
-// let b = 7
+let a = 10
+let b = 7
 
-// if (a>b) {
-//     console.log('a b-den boyukdur');
-// } else if (a=b) {
-//     console.log('a b-ye beraberdir');
-// } else {
-//     console.log('a b-den kicikdir'); 
-// }
-
-
+if (a>b) {
+    console.log('a b-den boyukdur');
+} else if (a=b) {
+    console.log('a b-ye beraberdir');
+} else {
+    console.log('a b-den kicikdir'); 
+}
 
 
 
@@ -39,16 +37,16 @@ let students=[
 
 
 
-// 2
-//     let ikiAd = [];
+2
+    let ikiAd = [];
 
-//     for (let i = 0; i < students.length; i++) {
-//       if (students[i].id % 2 === 0) {
-//         ikiAd.push(students[i]);
-//       }
-//     }
+    for (let i = 0; i < students.length; i++) {
+      if (students[i].id% 2 === 0) {
+        ikiAd.push(students[i].id);
+      }
+    }
     
-//     console.log(ikiAd);
+    console.log(ikiAd);
 
 
 
@@ -57,16 +55,16 @@ let students=[
 
 
 
-// 3
-//     let tekAd = [];
+3
+    let tekAd = [];
 
-//     for (let i = 0; i < students.length; i++) {
-//       if (students[i] % 2 === 1) {
-//         tekAd.push(students[i].name);
-//       }
-//     }
+    for (let i = 0; i < students.length; i++) {
+      if (students[i].id% 2 === 1) {
+        tekAd.push(students[i].name);
+      }
+    }
     
-//     console.log(tekAd);
+    console.log(tekAd);
 
 
 
@@ -75,31 +73,15 @@ let students=[
 
 
 
-// 4
-// let studentsyas = [];
-// for (let i = 0; i < students.length; i++){
-//     if (students[i].age>20) {
-//        studentsyas.push(students[i].name);
-//     }  
-//     }
+4
+let studentsyas = [];
+for (let i = 0; i < students.length; i++){
+    if (students[i].age>20) {
+       studentsyas.push(students[i].name);
+    }  
+    }
 
-//     console.log( studentsyas);
-
-
-
-
-
-
-
-
-// 5
-// let studentgrde =[]
-// for (let i = 0; i < students.length; i++) {
-//     if (students[i].id % 2 === 0 && students[i].grade>90) {
-//         studentgrde.push(students[i].name);
-//     }
-// }
-//  console.log(studentgrde);
+    console.log( studentsyas);
 
 
 
@@ -107,15 +89,49 @@ let students=[
 
 
 
-// 6 
-// let studentss = []
-// for (let i = 0; i < students.length; i++) {
-//    if (students[i].grade==95 || students[i].grade==100) {
-//     studentss.push(students[i].name);
-//    }
+
+5
+let studentgrde =[]
+for (let i = 0; i < students.length; i++) {
+    if (students[i].id % 2 === 0 && students[i].grade>90) {
+        studentgrde.push(students[i].name);
+    }
+}
+ console.log(studentgrde);
+
+
+
+
+
+
+
+6 
+let studentss = []
+for (let i = 0; i < students.length; i++) {
+   if (students[i].grade==95 || students[i].grade==100) {
+    studentss.push(students[i].name);
+   }
     
-// }
-// console.log(studentss);
+}
+console.log(studentss);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
